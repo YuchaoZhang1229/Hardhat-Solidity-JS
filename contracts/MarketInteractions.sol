@@ -54,6 +54,7 @@ contract MarketInteractions {
 
         return POOL.withdraw(asset, amount, to);
     }
+    
     // Returns the user account data across all the reserves
     function getUserAccountData(address _userAddress)
         external
